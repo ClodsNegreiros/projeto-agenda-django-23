@@ -15,5 +15,6 @@ git config --global user.email 'Seu email'
 git config --global user.defaultBranch main
 git init
 git add .
-git commit -m "Mensangem"
+git commit -m 'Mensangem'
+git remote add origin URL_DO_GIT
 ```
