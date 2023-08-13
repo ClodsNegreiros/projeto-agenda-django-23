@@ -108,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'Amerida/Sao_Paulo'
+TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 
@@ -122,6 +122,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = (
     BASE_DIR / 'base_static',
 )
+STATIC_ROOT = BASE_DIR / 'static' # collectstatic
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
